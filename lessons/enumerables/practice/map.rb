@@ -5,6 +5,10 @@
 def capitalize
     names = ["alice", "bob", "charlie"]
 
+    names.map do |name|
+        name.capitalize
+    end
+
     # Your code goes here
 
     # expected return value is ["Alice", "Bob", "Charlie"]
@@ -12,6 +16,10 @@ end
 
 def doubles
     numbers = [1, 2, 3, 4, 5]
+
+    numbers.map do |num|
+        num + num
+    end
 
     # Your code goes here
 
@@ -21,6 +29,10 @@ end
 def squares
     numbers = [1, 2, 3, 4, 5]
 
+    numbers.map do |num|
+        num**2
+    end
+
     # Your code goes here
 
     # expected return value is [1, 4, 9, 16, 25]
@@ -29,6 +41,10 @@ end
 def lengths
     names = ["alice", "bob", "charlie", "david", "eve"]
 
+    names.map do |name|
+        name.length
+    end
+
     # Your code goes here
 
     # expected return value is [5, 3, 7, 5, 3]
@@ -36,6 +52,9 @@ end
 
 def normalize_zip_codes
     numbers = [234, 10, 9119, 38881]
+
+    numbers.map do |zip_code|
+        if zip_code != 
 
     # Your code goes here
 
@@ -71,7 +90,7 @@ end
 # p doubles
 # p squares
 # p lengths
-# p normalize_zip_codes
+p normalize_zip_codes
 # p backwards
 # p words_with_no_vowels
 # p trim_last_letter
