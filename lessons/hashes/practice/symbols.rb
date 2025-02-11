@@ -15,6 +15,17 @@ new_tv = {
 # Syntax symbol with hash rocket:
 # create hash here
 
+new_tv_symbol_version = {
+  :screen_size => 50, 
+  :price => 300, 
+  :brand => "Samsung"
+}
 
 # Syntax symbol without hash rocket:
 # create hash here
+
+new_tv_symbol_shorthand = {
+  screen_size: 50, 
+  price: 300, 
+  brand: "Samsung"
+}
