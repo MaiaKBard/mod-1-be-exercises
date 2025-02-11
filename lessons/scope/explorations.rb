@@ -3,8 +3,8 @@ require 'pry'
 ## Example 1
 
 # x = 10
-# puts x
-# puts y
+# puts x #
+# puts y #
 
 ## Example 2
 
