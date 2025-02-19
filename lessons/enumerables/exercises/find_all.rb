@@ -1,4 +1,4 @@
-# 1. Using #each, write the code to find all the numbers divisible by 3
+                                           # 1. Using #each, write the code to find all the numbers divisible by 3
 # 2. Once you get the method below to work using #each, refactor your code to use #find_all. 
 
 
